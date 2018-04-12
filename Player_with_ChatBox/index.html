@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>this is title here</title>
+	<style>
+		*{margin: 0; padding: 0;}
+		body{font-family: arial; background-color: #000;}
+		.heder_section{width: 100%;height: 50px;background-color: #000;opacity: .9;}
+		.main_section{width: 100%; position: relative;}
+		.left_section{width:83%; height: 880px; float: left;top:-1px;}
+		#chatwing-embedded-d091ff60-2d76-11e8-9143-23db22e619ca {height:100%; float:right; width: 100%;}
+		#chatwing-embedded-d091ff60-2d76-11e8-9143-23db22e619ca iframe{width: 100%;height: 880px;}
+		.right_section{width: 17%; float: right;}
+		.embed-container {position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;}
+		.fwrap{width: 100%;background-color: #000;height: 50px;opacity: .9;float: left;}
+		.embed-container iframe,.embed-container object,.embed-container embed {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+		iframe{max-width: 100%;max-height: 100%;}
+		@media screen and (max-width: 1366px) {
+			.left_section{width: 82%; height: 635px;}
+			.right_section{width: 18%;;}
+	        #chatwing-embedded-d091ff60-2d76-11e8-9143-23db22e619ca{max-width: 100%;margin: auto;}
+	        iframe{max-width: 100%;max-height: 100%;}
+	        #chatwing-embedded-d091ff60-2d76-11e8-9143-23db22e619ca iframe{max-width: 100%; max-height: 624px;}
+	        .fwrap{margin-top: 0px;}
+	    }
+		@media screen and (max-width: 1280px) {
+			.left_section{width: 78%; height: 580px; float: left;}
+			.right_section{width: 22%; height: 560px;}
+            #chatwing-embedded-d091ff60-2d76-11e8-9143-23db22e619ca{max-width: 85%;max-width: 100%; height: 95%;}
+	        #chatwing-embedded-d091ff60-2d76-11e8-9143-23db22e619ca iframe{max-width: 100%; max-height: 562px;}
+	    }
+		@media screen and (max-width: 1024px) {
+			.left_section{height: 455px;}
+			.right_section{width: 22%;height: 446px;}
+            #chatwing-embedded-d091ff60-2d76-11e8-9143-23db22e619ca{width: 100%;height: 443px;}
+	        #chatwing-embedded-d091ff60-2d76-11e8-9143-23db22e619ca iframe{height: 440px;}
+	    }
+        @media screen and (max-width: 500px) {
+            .main_contain{width: 98%; margin: auto;}
+            .left_section{width: 100%; height: 200px;}
+            .em_con {max-width: 100%;padding-bottom: 56.25%; }
+			.fwrap{width: 100%;float: none;margin: 7px;}
+			.embed-container iframe,.embed-container embed {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+	        .right_section {width: 90%; float: none; margin:auto; clear:both; padding-top:36px;}
+         }
+	</style>
+
+	<script type="text/javascript">
+			(function(d) {
+			var cwjs, id='chatwing-js'; if(d.getElementById(id)) {return;}
+			cwjs = d.createElement('script'); cwjs.type = 'text/javascript'; cwjs.async = true; cwjs.id = id
+			cwjs.src = "//chatwing.com/code/d091ff60-2d76-11e8-9143-23db22e619ca/embedded";
+			d.getElementsByTagName('head')[0].appendChild(cwjs);
+		})(document);
+	</script>
+</head>
+<body>
+	
+	<header>
+		<div class ="heder_section">
+			<h2 style="color:#fff; margin-left:10px; padding:5px;">Lorem Ipsum</h2>
+		</div>
+	</header>
+	<section class ="main_section">
+		<div class ="main_contain">
+			<!--Video player-->
+			<section class ="left_section">
+				<div class='embed-container em_con'>
+				  <div class="vcontent">
+				 	 <iframe width="340px"; height="880px" src="https://www.youtube.com/embed/F9Bo89m2f6g" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				  </div>
+				</div>
+			</section>
+			
+			<!-- Chat box-->
+			<section class ="right_section right">
+					<div id="chatwing-embedded-d091ff60-2d76-11e8-9143-23db22e619ca">
+					</div>
+			</section>
+		</div>
+
+		<footer>
+			<section class ="footer_section fwrap">
+				<div class ="footer_text">
+					<h2 style="color:#fff; padding:5px; margin-left: 10px;">Lorem Ipsum</h2>
+				</div>
+			</section>
+		</footer>
+	</section>
+</body>
+</html>

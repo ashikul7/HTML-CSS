@@ -1,0 +1,1 @@
+Full responsive video player with chatbox. The  chatbox will open after loding at server
